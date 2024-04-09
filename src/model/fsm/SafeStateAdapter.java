@@ -13,11 +13,11 @@ public abstract class SafeStateAdapter implements ISafeState{
         this.data = data;
     }
 
-    protected void changeState(ISafeState newState){
+    protected void changeState(ISafeState newState){ //recebe o estado ja construido
         context.changeState(newState);
     }
 
-    protected void changeState(SafeState newState){
+    protected void changeState(SafeState newState){ //recebe apenas a enumeracao (q o identifica)
         context.changeState(newState.getInstance(context,data));
     }
 

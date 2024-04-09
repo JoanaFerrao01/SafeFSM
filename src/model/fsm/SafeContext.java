@@ -10,7 +10,8 @@ public class SafeContext {
 
     public SafeContext(){
         data = new SafeData();
-        currentFSMState = new ClosedSafeState(this,data);
+        //currentFSMState = new ClosedSafeState(this,data);
+        currentFSMState = SafeState.CLOSED.getInstance(this,data);
     }
 
     //public SafeContext(SafeData data){ //dependency injection

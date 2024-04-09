@@ -36,7 +36,9 @@ public class OpenSafeState extends SafeStateAdapter {
         boolean res = data.closeDoor();
         if (res)
             //changeState(new ClosedSafeState(context, data));
-            changeState(SafeStateFactory.getInstance(SafeState.CLOSED,context,data));
+            //changeState(SafeStateFactory.getInstance(SafeState.CLOSED,context,data));
+            //changeState(SafeState.CLOSED.getInstance(context,data));
+            changeState(SafeState.CLOSED);
         return res;
     }
 

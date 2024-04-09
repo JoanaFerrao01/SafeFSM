@@ -13,7 +13,8 @@ public class ClosedSafeState extends SafeStateAdapter {
     @Override
     public boolean open(String inputPin) {
         if(data.openDoor(inputPin)) {
-            changeState(new OpenSafeState(context, data));
+            //changeState(new OpenSafeState(context, data));
+            changeState(SafeState.OPEN);
             return true;
         }
 

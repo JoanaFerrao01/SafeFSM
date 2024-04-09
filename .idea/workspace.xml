@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6cebcd0c-2d31-460f-8ee8-049145b0d8e9" name="Changes" comment="1st aula done">
-      <change afterPath="$PROJECT_DIR$/src/model/fsm/states/SafeStateFactory.java" afterDir="false" />
+    <list default="true" id="6cebcd0c-2d31-460f-8ee8-049145b0d8e9" name="Changes" comment="1st aula done (fsm) + factory start">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/fsm/SafeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/fsm/SafeState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/fsm/SafeContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/fsm/SafeContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/fsm/SafeStateAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/fsm/SafeStateAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/fsm/states/BlockedSafeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/fsm/states/BlockedSafeState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/fsm/states/ClosedSafeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/fsm/states/ClosedSafeState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/fsm/states/OpenSafeState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/fsm/states/OpenSafeState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +71,7 @@
       <workItem from="1712065591026" duration="1820000" />
       <workItem from="1712067482685" duration="6291000" />
       <workItem from="1712337580479" duration="28000" />
-      <workItem from="1712668190223" duration="465000" />
+      <workItem from="1712668190223" duration="909000" />
     </task>
     <task id="LOCAL-00001" summary="1st aula done">
       <created>1712668262533</created>
@@ -78,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712668262533</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1st aula done (fsm) + factory start">
+      <created>1712668718315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712668718315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st aula done" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st aula done" />
+    <MESSAGE value="1st aula done (fsm) + factory start" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st aula done (fsm) + factory start" />
   </component>
 </project>

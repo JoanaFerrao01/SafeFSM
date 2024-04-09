@@ -14,7 +14,9 @@ public class BlockedSafeState extends SafeStateAdapter {
     public boolean unBlock(String inputPuk) {
         boolean res = data.unBlock(inputPuk);
 
-        if(res) changeState(new ClosedSafeState(context,data));
+        if(res)
+            //changeState(new ClosedSafeState(context,data));
+            changeState(SafeState.CLOSED);
 
         return res;
     }
